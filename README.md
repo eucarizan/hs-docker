@@ -5,6 +5,7 @@
   - [Sections](#sections)
     - [01: helloworld](#01-helloworld)
     - [02: basic operations with a container](#02-basic-operations-with-a-container)
+    - [03: docker build and docker tag](#03-docker-build-and-docker-tag)
 
 ## Sections
 ### 01: helloworld
@@ -27,11 +28,18 @@
 6|remove one or more docker containers|[docker container rm](./02_container/06_remove_container.sh)
 <hr/>
 
+### 03: docker build and docker tag
+#|topic|command
+:-:|:-:|:--
+1|build an image|[docker build](./03_build-and-tag/01_build_image_using_dockerfile.sh)
+2|specifying image name|[docker build -t](./03_build-and-tag/02_set_imagename.sh)
+<hr/>
+
+
 <!--
-### 00: section
+### 0: 
 #|topic|command
 :-:|:-:|:--
 ||[](./)
 <hr/>
 -->
-<!-- ||[](./) -->
