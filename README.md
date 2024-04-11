@@ -7,6 +7,7 @@
     - [02: basic operations with a container](#02-basic-operations-with-a-container)
     - [03: docker build and docker tag](#03-docker-build-and-docker-tag)
     - [04: dockerfile - from, label, cmd, entrypoint](#04-dockerfile---from-label-cmd-entrypoint)
+    - [05: dockerfile - run, shell](#05-dockerfile---run-shell)
 
 ## Sections
 ### 01: helloworld
@@ -46,6 +47,17 @@
 5|[entrypoint instruction v1](./04_dockerfile_01/05_entrypoint_instruction_v1.sh)|prevents from passing one more argument to echo when running a container
 6|[entrypoint instruction v2](./04_dockerfile_01/05_entrypoint_instruciton_v2.sh)|does not prevent
 7|[cmd and entrypoint instruction](./04_dockerfile_01/06_cmd_and_entrypoint_instruction.sh)|combination of cmd and entrypoint
+<hr/>
+
+### 05: dockerfile - run, shell
+#|command|topic
+:-:|:-:|:--
+1|[run instruction](./05_dockerfile_02/01_run_instruction.sh)|one command, create demo directory inside /tmp directory and list /tmp folder's contents
+2|[run instruction](./05_dockerfile_02/02_run_instruction.sh)|two commands, install iputils-ping package to the image
+3|[run instruction](./05_dockerfile_02/03_run_instruction.sh)|several commands, use \ to transfer to the next line
+4|[run instruction](./05_dockerfile_02/04_run_instruction.sh)|to speed up build process, docker will use cache from the target directory in case it needs to rebuild the run layer in later builds
+5|[shell instruction](./05_dockerfile_02/05_shell_instruction.sh)|set the default shell for instructions operating with the shell form
+6|[shell instruction](./05_dockerfile_02/06_shell_instruction.sh)|another sample
 <hr/>
 
 <!--
