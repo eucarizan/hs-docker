@@ -8,6 +8,7 @@
     - [03: docker build and docker tag](#03-docker-build-and-docker-tag)
     - [04: dockerfile - from, label, cmd, entrypoint](#04-dockerfile---from-label-cmd-entrypoint)
     - [05: dockerfile - run, shell](#05-dockerfile---run-shell)
+    - [06: networking](#06-networking)
 
 ## Sections
 ### 01: helloworld
@@ -59,6 +60,18 @@
 5|[shell instruction](./05_dockerfile_02/05_shell_instruction.sh)|set the default shell for instructions operating with the shell form
 6|[shell instruction](./05_dockerfile_02/06_shell_instruction.sh)|another sample
 <hr/>
+
+### 06: networking
+#|command|topic
+:-:|:-:|:--
+1|[docker network](./06_network/01_docker_network.sh)|find network available
+2|[docker network inspect](./06_network/02_network_inspect.sh)|inspecting networks
+3|[docker create](./06_network/03_create_container.sh)|creating a container by specifying the network it will connect to when running it
+4|[docker run](./06_network/04_docker_run.sh)|running a container specifying the desired network
+5|[docker network connect](./06_network/05_docker_network_connect.sh)|attach an already-running container to a network
+6|[docker network disconnect](./06_network/06_docker_network_disconnect.sh)|disconnect a container from the network
+<hr/>
+
 
 <!--
 ### 0:
