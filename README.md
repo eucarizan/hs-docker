@@ -10,6 +10,7 @@
     - [05: dockerfile - run, shell](#05-dockerfile---run-shell)
     - [06: networking](#06-networking)
     - [07: volumes](#07-volumes)
+    - [08: multi stage building](#08-multi-stage-building)
 
 ## Sections
 ### 01: helloworld
@@ -79,6 +80,12 @@
 1|[docker volume create](./07_volumes/01_docker_volume_create.sh)|create a docker volume
 2|[docker run](./07_volumes/02_docker_run.sh)|launch a container and mount the volume
 3|[docker exec](./07_volumes/03_docker_exec.sh)|write some data to the mounted volume
+<hr/>
+
+### 08: mutli stage building
+#|command|topic
+:-:|:-:|:--
+1|[two stages docker file](./08_multi_stage_building/01_two_stages.sh)|docker with two stages
 <hr/>
 
 
