@@ -2,6 +2,7 @@
 [Hyperskil](https://hyperskill.org/tracks/64)'s Introduction to Docker track.
 
 - [Docker](#docker)
+  - [Projects](#projects)
   - [Sections](#sections)
     - [01: helloworld](#01-helloworld)
     - [02: basic operations with a container](#02-basic-operations-with-a-container)
@@ -12,6 +13,12 @@
     - [07: volumes](#07-volumes)
     - [08: mutli stage building](#08-mutli-stage-building)
     - [09: docker file - copy, add, env, arg](#09-docker-file---copy-add-env-arg)
+
+## Projects
+#|project|rating|hours to complete
+:-:|:-:|:-:|:-:
+1|[run docker run](./projects/run_docker_run/README.md)|⭐4.4|~6 hours
+<hr/>
 
 ## Sections
 ### 01: helloworld
