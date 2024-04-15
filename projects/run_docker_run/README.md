@@ -10,6 +10,9 @@
     - [2: Instructions](#2-instructions)
       - [2.1 Description](#21-description)
       - [2.2 Objectives](#22-objectives)
+    - [3: A new image](#3-a-new-image)
+      - [3.1 Description](#31-description)
+      - [3.2 Objective](#32-objective)
 
 ## Learning Outcomes
 Learn to build a custom image from an official image, create containers from an image, and start, stop, and delete a container.
@@ -43,6 +46,15 @@ You are in the most essential stage of your project. You need to create a `Docke
 - Add the content of the `hyper-app` to the working directory
 - Add a run instruction with `pip install -r requirements.txt` to the `Dockerfile`. This command will install the dependencies that are required for your project.
 - Make the entrypoint of the image, run the following command with parameters `["python3", "main.py"]`
+
+<hr/>
+
+### 3: A new image
+#### 3.1 Description
+You have pulled the base image and created a Dockerfile. Time to create your custom image with the instructions in your Dockerfile.
+
+#### 3.2 Objective
+Run the proper docker command to build the image with the tag `hyper-web-app:latest`.
 
 <hr/>
 

@@ -13,7 +13,7 @@
     - [07: volumes](#07-volumes)
     - [08: mutli stage building](#08-mutli-stage-building)
     - [09: docker file - copy, add, env, arg](#09-docker-file---copy-add-env-arg)
-    - [10: docker file - user, workdir, expose](#10-docker-file---user-workdir-expose) 
+    - [10: dockerfile - user, workdir, expose](#10-dockerfile---user-workdir-expose)
 
 ## Projects
 #|project|rating|hours to complete
@@ -112,12 +112,13 @@
 ### 10: dockerfile - user, workdir, expose
 #|command|topic
 :-:|:-:|:--
-1|[user instruction](./10_docker_file_04/01_user_demo.sh)|switch to another user
-2|[user instruction](./10_docker_file_04/02_specify_group_and_user.sh)|specify group coupled with the user
-3|[workdir instruction](./10_docker_file_04/03_set_up_working_directory.sh)|set the working directory
-4|[workdir instruction](./10_docker_file_04/04_get_to_previous_directory.sh)|get back to the previous directory
-5|[expose instruction](./10_docker_file_04/05_expose_demo.sh)|specify the required ports
-6|[expose instruction](./10_docker_file_04/06_expose_specify_protocol_explicit.sh)|specify the protocol explicitly
+1|[user instruction](./10_dockerfile_04/01_user_demo.sh)|switch to another user
+2|[user instruction](./10_dockerfile_04/02_specify_group_and_user.sh)|specify group coupled with the user
+2|[user instruction](./10_dockerfile_04/02_specify_group_and_user.sh)|specify group coupled with the user
+3|[workdir instruction](./10_dockerfile_04/03_set_up_working_directory.sh)|set the working directory
+4|[workdir instruction](./10_dockerfile_04/04_get_to_previous_directory.sh)|get back to the previous directory
+5|[expose instruction](./10_dockerfile_04/05_expose_demo.sh)|specify the required ports
+6|[expose instruction](./10_dockerfile_04/06_expose_specify_protocol_explicit.sh)|specify the protocol explicitly
 <hr/>
 
 <!--
