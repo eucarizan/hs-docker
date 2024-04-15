@@ -16,6 +16,9 @@
     - [4: Run docker](#4-run-docker)
       - [4.1 Description](#41-description)
       - [4.2 Objectives](#42-objectives)
+    - [5: Home cleaning](#5-home-cleaning)
+      - [5.1 Description](#51-description)
+      - [5.2 Objectives](#52-objectives)
 
 ## Learning Outcomes
 Learn to build a custom image from an official image, create containers from an image, and start, stop, and delete a container.
@@ -71,6 +74,15 @@ There is a nuance between an image and a container. The image is a read-only tem
 - Map container port `8000` to the host port `8000`.
 
 <hr/>
+
+### 5: Home cleaning
+#### 5.1 Description
+There are many reasons to pull an image from the docker hub. Also, many reasons to build a custom image. But there will be times when you want to get rid of these images. Now remove the image from your system to do some home cleaning. But be careful, to delete an image you have to first stop and delete its container.
+
+#### 5.2 Objectives
+- Stop the container which has the image `hyper-web-app`;
+- Delete the container that the image is `hyper-web-app`;
+- Remove the image with the tag `hyper-web-app:latest`.
 
 [<<](../../README.md#docker)
 
