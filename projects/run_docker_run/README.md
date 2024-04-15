@@ -7,6 +7,9 @@
     - [1: Base](#1-base)
       - [1.1 Description](#11-description)
       - [1.2 Objectives](#12-objectives)
+    - [2: Instructions](#2-instructions)
+      - [2.1 Description](#21-description)
+      - [2.2 Objectives](#22-objectives)
 
 ## Learning Outcomes
 Learn to build a custom image from an official image, create containers from an image, and start, stop, and delete a container.
@@ -24,6 +27,22 @@ On some Linux distributions, you may need to add users to the docker group to pa
 
 #### 1.2 Objectives
 Pull the image python:3.11-slim from the Docker Hub.
+
+<hr/>
+
+### 2: Instructions
+#### 2.1 Description
+You are in the most essential stage of your project. You need to create a `Dockerfile`. A `Dockerfile` is a text document that contains all the commands to assemble an image. By following the objectives below create the `Dockerfile`.
+
+>Be aware, only the existence of the `Dockerfile` and the instructions will be tested for this stage. We will test if the running container is meet our expectations in the following stages.
+
+#### 2.2 Objectives
+- Build your image from `python:3.11-slim`
+- Expose port `8000`
+- Define the working directory `/home/app`
+- Add the content of the `hyper-app` to the working directory
+- Add a run instruction with `pip install -r requirements.txt` to the `Dockerfile`. This command will install the dependencies that are required for your project.
+- Make the entrypoint of the image, run the following command with parameters `["python3", "main.py"]`
 
 <hr/>
 
