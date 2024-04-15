@@ -13,6 +13,9 @@
     - [3: A new image](#3-a-new-image)
       - [3.1 Description](#31-description)
       - [3.2 Objective](#32-objective)
+    - [4: Run docker](#4-run-docker)
+      - [4.1 Description](#41-description)
+      - [4.2 Objectives](#42-objectives)
 
 ## Learning Outcomes
 Learn to build a custom image from an official image, create containers from an image, and start, stop, and delete a container.
@@ -55,6 +58,17 @@ You have pulled the base image and created a Dockerfile. Time to create your cus
 
 #### 3.2 Objective
 Run the proper docker command to build the image with the tag `hyper-web-app:latest`.
+
+<hr/>
+
+### 4: Run docker
+#### 4.1 Description
+There is a nuance between an image and a container. The image is a read-only template, and a container is a running instance of the image. In the previous stage, you created your custom image. Now by using this image create and run your container.
+
+#### 4.2 Objectives
+- The image for the container should be `hyper-web-app`;
+- Run the container in the `detach` mode;
+- Map container port `8000` to the host port `8000`.
 
 <hr/>
 
