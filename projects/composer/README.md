@@ -10,6 +10,9 @@
     - [2: Network & volume](#2-network-&-volume) 
       - [2.1 Description](#21-description)
       - [2.2 Objectives](#22-objectives)
+    - [3: Task manager](#3-task-manager)
+      - [3.1 Description](#31-description)
+      - [3.2 Objectives](#32-objectives)
 
 ## Learning Outcomes
 You will learn the tool, explore its practical use to effectively manage your containers, and gain valuable insights into container orchestration and administration.
@@ -48,6 +51,22 @@ To be ready for further expansion with multiple services, it is common practice 
 - Add the volume to the `mongodb` service and map it to the container's _/data/db_ directory.
 
 <hr/>
+
+### 3: Task manager
+#### 3.1 Description
+In this stage, integrate the main application as an additional service. To accomplish this, use the provided Dockerfile located in the project directory. Use the relevant command leveraging the Dockerfile to construct an image encompassing the main application. Subsequently, define the essential environment variables that your application will utilize. Please adhere to the following objectives to complete your assigned tasks.
+
+#### 3.2 Objectives
+- Add another service to the _docker-compose.yaml_ file with the attributes below;
+  - Define the service with the `hyper-service` name;
+  - Add the command to build the image for your service;
+  - Define the container name with the `hyper-task-manager` value;
+  - Define the `MONGO_INITDB_ROOT_USERNAME` environment variable with the `${MONGO_INITDB_ROOT_USERNAME}` value;
+  - Define the `MONGO_INITDB_ROOT_PASSWORD` environment variable with the `${MONGO_INITDB_ROOT_PASSWORD}` value;
+  - Define the `MONGO_HOST_NAME` environment variable with the `mongodb` value;
+  - Define the `MONGO_PORT_NUMBER` environment variable with the `27017` value;
+  - Define the `env_file` option for the _.env_ file.
+
 
 [<<](../../README.md)
 
