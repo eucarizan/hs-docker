@@ -19,6 +19,9 @@
     - [5: Get started](#5-get-started)
       - [5.1 Description](#51-description)
       - [5.2 Objectives](#52-objectives)
+    - [6: Typo](#6-typo)
+      - [6.1 Description](#61-description)
+      - [6.2 Objectives](#62-objectives)
 
 ## Learning Outcomes
 You will learn the tool, explore its practical use to effectively manage your containers, and gain valuable insights into container orchestration and administration.
@@ -98,6 +101,19 @@ Great job on accomplishing the assigned tasks! Now, let's initiate the services 
 - Start the defined services in the _docker-compose.yaml_ file.
 
 <hr/> 
+
+### 6: Typo
+#### 6.1 Description
+Unfortunately, there is a mistake in the _main.py_. Fix the typo in line 12. Please restart the services to ensure the changes take effect. Additionally, find the API documentation in the project directory. Read it to educate yourself about the available endpoints and their usage. Once ready, create your first task by requesting the appropriate endpoint based on the documentation.
+
+>While restarting your services with the help of the `docker-compose`, use the correct option to rebuild your image.
+
+#### 6.2 Objectives
+- Fix the typo in the _main.py_;
+- Build and restart the services;
+- Create a task with the title `Study` and the description `Study DevOps`.
+
+<hr/>
 
 [<<](../../README.md)
 
