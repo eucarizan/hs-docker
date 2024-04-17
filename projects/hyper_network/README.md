@@ -16,6 +16,9 @@
     - [4: Records](#4-records)
       - [4.1 Description](#41-description)
       - [4.2 Objectives](#42-objectives)
+    - [5: Chores](#5-chores) 
+      - [5.1 Description](#51-description)
+      - [5.2 Objectives](#52-objectives)
 
 ## Learning Outcomes
 You will master the basic features of Docker, learn how to create a volume, and set up a network to enable different services to communicate with each other.
@@ -78,6 +81,16 @@ You've done a great job! The services should be running now. Your task is to cre
 - In the `users` table, create the `id` field of the `integer` type;
 - In the `users` table, create the `user_name` field of the `varchar` type, length `99`;
 - Insert one record with the `99` id and the `hyper-user` username.
+
+<hr/>
+
+### 5: Chores
+#### Description
+Time to clean up your system. Stop and delete the containers you created in the previous project stages.
+
+Objectives
+- Stop & delete the `hyper-postgres` container;
+- Stop & delete the `hyper-adminer` container.
 
 <hr/>
 
