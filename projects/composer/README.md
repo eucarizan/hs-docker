@@ -16,6 +16,9 @@
     - [4: Sideline](#4-sideline)
       - [4.1 Description](#41-description)
       - [4.2 Objectives](#42-objectives)
+    - [5: Get started](#5-get-started)
+      - [5.1 Description](#51-description)
+      - [5.2 Objectives](#52-objectives)
 
 ## Learning Outcomes
 You will learn the tool, explore its practical use to effectively manage your containers, and gain valuable insights into container orchestration and administration.
@@ -83,6 +86,18 @@ To ensure the proper functioning of the `fastapi-task-manager` service, incorpor
   - Define the dependency on the `mongodb` service.
 
 <hr/>
+
+### 5: Get started
+#### 5.1 Description
+Great job on accomplishing the assigned tasks! Now, let's initiate the services by executing the suitable `docker-compose` command. But before that, don't forget to create a .env file with secrets.
+
+#### 5.2 Objectives
+- Create a _.env_ file in the project directory with the following content:
+  - the `MONGO_INITDB_ROOT_USERNAME` key with the `admin` value;
+  - the `MONGO_INITDB_ROOT_PASSWORD` key with the `84225adce^/` value.
+- Start the defined services in the _docker-compose.yaml_ file.
+
+<hr/> 
 
 [<<](../../README.md)
 
