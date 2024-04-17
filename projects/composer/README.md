@@ -13,6 +13,9 @@
     - [3: Task manager](#3-task-manager)
       - [3.1 Description](#31-description)
       - [3.2 Objectives](#32-objectives)
+    - [4: Sideline](#4-sideline)
+      - [4.1 Description](#41-description)
+      - [4.2 Objectives](#42-objectives)
 
 ## Learning Outcomes
 You will learn the tool, explore its practical use to effectively manage your containers, and gain valuable insights into container orchestration and administration.
@@ -67,6 +70,19 @@ In this stage, integrate the main application as an additional service. To accom
   - Define the `MONGO_PORT_NUMBER` environment variable with the `27017` value;
   - Define the `env_file` option for the _.env_ file.
 
+<hr/>
+
+### 4: Sideline
+#### 4.1 Description
+To ensure the proper functioning of the `fastapi-task-manager` service, incorporate additional tasks and commands into the docker-compose file. You need to map a port, create a network and define a dependency. Please follow the instructions below.
+
+#### 4.2 Objectives
+- Add more attributes to the `hyper-service` service;
+  - Map the host port `8000` to the container port `8000`;
+  - Add the `hyper-task-manager-network` network;
+  - Define the dependency on the `mongodb` service.
+
+<hr/>
 
 [<<](../../README.md)
 
