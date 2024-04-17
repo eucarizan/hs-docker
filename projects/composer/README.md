@@ -4,10 +4,12 @@
   - [Learning Outcomes](#learning-outcomes)
   - [About](#about)
   - [Stages](#stages)
-    - [1: ](#1-)
+    - [1: NoSQL](#1-nosql)
       - [1.1 Description](#11-description)
       - [1.2 Objectives](#12-objectives)
-      - [1.3 Examples](#13-examples)
+    - [2: Network & volume](#2-network-&-volume) 
+      - [2.1 Description](#21-description)
+      - [2.2 Objectives](#22-objectives)
 
 ## Learning Outcomes
 You will learn the tool, explore its practical use to effectively manage your containers, and gain valuable insights into container orchestration and administration.
@@ -32,6 +34,18 @@ To incorporate MongoDB as the storage for this project, create the _docker-compo
   - Define the `MONGO_INITDB_ROOT_USERNAME` environment variable with the `${MONGO_INITDB_ROOT_USERNAME}` value;
   - Define the `MONGO_INITDB_ROOT_PASSWORD` environment variable with the `${MONGO_INITDB_ROOT_PASSWORD}` value;
   - Define the `env_file` option for the _.env_ file.
+
+<hr/>
+
+### 2: Network & volume
+#### 2.1 Description
+To be ready for further expansion with multiple services, it is common practice to define networks and volumes in `docker-compose`, even if there is currently only one service. Let's modify the _docker-compose.yaml_ file by adding a network and a permanent volume for the service.
+
+#### 2.2 Objectives
+- Define the volume with the `mongo-data` name;
+- Define the network with the `hyper-task-manager-network` name;
+- Add the network to the `mongodb` service.
+- Add the volume to the `mongodb` service and map it to the container's _/data/db_ directory.
 
 <hr/>
 

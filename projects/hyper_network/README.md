@@ -19,6 +19,9 @@
     - [5: Chores](#5-chores) 
       - [5.1 Description](#51-description)
       - [5.2 Objectives](#52-objectives)
+    - [6: Final sweep](#6-final-sweep) 
+      - [6.1 Description](#61-description)
+      - [6.2 Objectives](#62-objectives)
 
 ## Learning Outcomes
 You will master the basic features of Docker, learn how to create a volume, and set up a network to enable different services to communicate with each other.
@@ -85,14 +88,24 @@ You've done a great job! The services should be running now. Your task is to cre
 <hr/>
 
 ### 5: Chores
-#### Description
+#### 5.1 Description
 Time to clean up your system. Stop and delete the containers you created in the previous project stages.
 
-Objectives
+#### 5.2 Objectives
 - Stop & delete the `hyper-postgres` container;
 - Stop & delete the `hyper-adminer` container.
 
 <hr/>
+
+### 6: Final sweep
+#### 6.1 Description
+Like containers and images, you can delete networks and volumes. In this stage, you need to delete them. But beware, don't delete any volume with essential data. Follow the objectives below to finish your job.
+
+#### 6.2 Objectives
+- Delete the `hyper-network` network;
+- Delete the `hyper-volume` volume. 
+
+<hr/> 
 
 [<<](../../README.md#docker)
 

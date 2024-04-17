@@ -19,6 +19,8 @@
 #|project|rating|hours to complete
 :-:|:-:|:-:|:-:
 1|[run docker run](./projects/run_docker_run/README.md)|⭐4.4|~6 hours
+2|[hyper network](./projects/hyper_network/README.md)|⭐4.4|~6 hours
+3|[composer](./projects/composer/README.md)|⭐4.4|~9 hours
 <hr/>
 
 ## Sections
