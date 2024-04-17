@@ -22,6 +22,9 @@
     - [6: Typo](#6-typo)
       - [6.1 Description](#61-description)
       - [6.2 Objectives](#62-objectives)
+    - [7: Terminate](#7-terminate)
+      - [7.1 Description](#71-description)
+      - [7.2 Objectives](#72-objectives)
 
 ## Learning Outcomes
 You will learn the tool, explore its practical use to effectively manage your containers, and gain valuable insights into container orchestration and administration.
@@ -112,6 +115,20 @@ Unfortunately, there is a mistake in the _main.py_. Fix the typo in line 12. Ple
 - Fix the typo in the _main.py_;
 - Build and restart the services;
 - Create a task with the title `Study` and the description `Study DevOps`.
+
+<hr/>
+
+### 7: Terminate
+#### 7.1 Description
+An essential capability of the `docker-compose` tool is its ability to halt services effortlessly and remove all associated containers, volumes, and networks. Proceed to stop all the services and delete the containers, networks, and volumes defined in your `docker-compose` file.
+
+>Use the commands that will delete your volumes cautiously and ensure that you have backed up any important data before running it.
+
+>Once you have deleted a tagged image, you can employ the `docker image prune` command to remove any dangling images. Exercise caution while using this command.
+
+#### 7.2 Objectives
+- Stop the services, delete containers, networks, and volumes;
+- Remove the `hyper-service` image from the system.
 
 <hr/>
 
